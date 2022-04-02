@@ -86,9 +86,11 @@ print(f"{15:.2%}") # Exponencial    15.000000%
 print(f"{15:-^20.2f}") # Float      -------15.00-------- 
 
 # = no começo coloca o sinal no início da string
-print(f"{-15.3245:=+.2f}")     # -15.00
-print(f"{-15.3245:=+14.2f}")   # -        15.00
-print(f"{-15.3245:+14.2f}")    #         -15.00
+print(f"{-15.3245:=+.2f}")       # -15.00
+print(f"{-15.3245:=+14.2f}")     # -        15.00
+print(f"{-15.3245:+14.2f}")      #         -15.00
+# Com separador de milhar, sinal e alinhado à direita
+print(f"{1515.3245:=+14,.2f}")   # +     1,515.32
 
 #########################################################################################################
 # Exemplo de formatação de datas
